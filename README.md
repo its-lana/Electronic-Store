@@ -46,7 +46,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -165,7 +164,10 @@ This will give instructions on setting up your project locally. To get a local c
    DB_NAME = myStoreDatabase
    PORT    = 2022
    ```
-3. Open two terminals to the project folder, then:
+3. Make sure you have redis installed and running on your machine
+   <br/>
+   <br/>
+4. Open two terminals to the project folder, then:
    ```sh
    cd server
    npm i
