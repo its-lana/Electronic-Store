@@ -1,56 +1,30 @@
-Admin Credential APIs
+Admin and User Credential APIs
 -------------------------------------
 
-Watch my latest Mern series for admin and e-commerce
-
-
-    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-    address: [{
-        atasNama:
-        jalan:
-        kelurahan:
-        kecamatan:
-        kota:
-        provinsi:
-        kodepos:
-        noHp:
-    }]
-
-
-
-Admin Signup 
+Admin and User Signup 
 -------------------------------------
 Request Type : POST
-API : http://localhost:2019/admin/signup
+API admin : http://localhost:2022/admin/signup
+API user : http://localhost:2022/user/signup
 
 Request Body Example : (JSON) 
 {
-        "firstName":  "Rizwan",
-        "lastName": "Khan",
-        "email": "rizwankhan@gmail.com",
+        "firstName":  "Shiro",
+        "lastName": "Boy",
+        "email": "shiroboy@mail.com",
         "password": "12345"
 }
-{ 
-        "person_name": "lans",
-        "person_position": "Manager",
-        "person_level": "Junior"
-}
 
-{
-    "first_name" : "Lans",
-    "last_name" : "test",
-    "email" : "lanstest@gmail.com",
-    "password" : "lans123"    
-}
 
-Admin Login
+Admin and User Login
 --------------------------------------
 Request Type: POST
-API: http://localhost:2019/admin/login
+API admin : http://localhost:2022/admin/login
+API user : http://localhost:2022/user/login
 
 Request Body Example: (JSON)
 {
-        "email": "rizwankhan@gmail.com",
+        "email": "shiroboy@mail.com",
         "password": "12345"
 }
 
@@ -59,26 +33,16 @@ Response : {
         token: xxxxxxxxxxxxxxxxxxxxxxxx
 }
 
-Add New Product
+Admin Add New Product
 --------------------------------------
 Request Type: POST,
-API: http://localhost:2019/products/create
+Add Header : 
+        auth-token : xxxxx tokens obtained when login xxxxx
+        
+API: http://localhost:2022/products/create
 
-Request Body Example JSON {
-        name: 'Red t shirt in check',
-        price: 21,
-        stock: 100,
-        description: 'Its a very good t shirt',
-        productPic: [
-                {img: http://domain.com/red-shirt.jpeg}
-        ],
-        keyword: 'red t shirt check t shirt',
-        category: xxxxxcategoryIdxxxxxxxxxxxxxxxxxx,
-        createdBy: xxxxxxxxxxxxxxadminIdxxxxxxxxxx
-}
-Response Example : {
-        message: {}
-}
+
+Request Body Example JSON 
 
 {
         "name": "Red t shirt in check",
@@ -89,14 +53,18 @@ Response Example : {
                 {"img": "http://domain.com/red-shirt.jpeg"}
         ],
         "keyword": "red t shirt check t shirt",
-        "category": "60e9592467e9e34bb89dd50d",
-        "createdBy": "62e7dae49ca1b02a44f4d6ec"
+        "category": "----categoryID--------",
+        "createdBy": "-----adminID---------"
+}
+
+Response Example : {
+        message: {}
 }
 
 Get Product List
 -----------------------------------------
 Request Type: GET,
-API : http://localhost:2019/products
+API : http://localhost:2022/products
 
 Response : [
         {
@@ -126,17 +94,18 @@ Add New category
 Request Type: POST
 API: http://localhost:2019/category
 
-Request Body Example : {
-        name: xxxxxxxxxxxxx,
-        slug: xxxxxxxxx,
-        parent: xxxxxxxxxxxxxx, or empty
-        createdBy: xxxxxxxxxxxxx
+Request Body Example : 
+{
+        "name": "Accessories",
+        "slug": "accessories",
+        "parent": xxxxxx Id category parent xxxxxxxx, or empty
+        createdBy: xxxxx Id Admin xxxxxxxx
 }
 
 
 Get Category List
 Request Type: GET,
-API: http://localhost:2019/category
+API: http://localhost:2022/category
 
 Response {
     "message": [
@@ -162,11 +131,3 @@ Response {
     ]
 }
 
-
-User
-{
-    "firstName" : "Lans",
-    "lastName" : "test",
-    "email" : "userlans@gmail.com",
-    "password" : "lans123"    
-}

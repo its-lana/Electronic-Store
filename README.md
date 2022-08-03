@@ -59,56 +59,57 @@
 
 <h3 align="left">Home</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/1-home.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">SignUp</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/2-signup.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">Login</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/3-login.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">Product Details</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/4-product-details.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">Example Filter by Stylish Category</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/5-filter-by-stylish-category.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">Cart Item</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/6-cart-item.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">Place Order</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/7-place-order.png" alt="Logo">
 </a>
 </div>
 <h3 align="left">List Order</h3>
 <div align="center">
-<a href="https://github.com/Soherlana/191524045_3B_Herlana/tree/main/screenshot">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/screenshot">
     <img src="screenshot/8-list-order.png" alt="Logo">
 </a>
 </div>
 
 <!-- [![Product Name Screenshot][product-screenshot]](https://example.com) -->
 
-###### Mini Project Web Development Course
+<br />
+<br />
 
 This website was created for project at Data Modelling course. In this application, I implemented using Node JS and MongoDB for Backend and using React JS for Frontend. For caching I use Redis.
 Features on this website:
@@ -179,5 +180,11 @@ This will give instructions on setting up your project locally. To get a local c
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+<h3 align="left">How to Use API</h3>
+You can see the guide in the following file :
+<div align="center">
+<a href="https://github.com/its-lana/Electronic-Store/tree/main/server/api.txt">
+    <h3 align="center">API.txt</h3>
+</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
