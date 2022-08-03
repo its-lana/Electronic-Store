@@ -47,6 +47,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#consume-api">How to consume API</a></li>
       </ul>
     </li>
   </ol>
@@ -182,11 +183,10 @@ This will give instructions on setting up your project locally. To get a local c
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-<h3 align="left">How to Use API</h3>
-You can see the guide in the following file :
-<div align="center">
-<a href="https://github.com/its-lana/Electronic-Store/tree/main/server/api.txt">
-    <h3 align="center">API.txt</h3>
-</a>
+
+### Consume API
+
+<h3 align="left">How to Consume API</h3>
+You can see the guide in the following file : <a href="https://github.com/its-lana/Electronic-Store/tree/main/server/api.txt">API.txt</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
